@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding: 0.25rem 1rem;
+}
+
+header i {
+    float: left;
+    margin-top: 18px;
+}
+
+header p {
+    text-align: center;
+    font-weight: 700;
+}
+
+section.cover {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: auto auto;
+    position: relative;
+}
+
+section.cover img {
+    width: 100%;
+}
+
+section.cover i {
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 4em;
+}
+
+section.cover h3 {
+    z-index: 100;
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    margin:0;
+    background-color: rgba(0,0,0,0.75);
+    width: fit-content;
+    color: #fff;
+}
+
+/*  */
+
+section.contolPanel {
+    padding: 1rem 1rem;
+    width: 100%;
+    height: 1.5rem;
+    border: solid 1px black;
+}
+
+section.contolPanel p {
+    margin: 0;
+    float: left;
+    line-height: 1.5rem;
+}
+
+section.contolPanel button {
+    float: right;
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 0.25rem 1rem;
+    margin-right: 2rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+/*  */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .box {
+    border: 3px solid #666;
+    background-color: #ddd;
+    border-radius: .5em;
+    padding: 10px;
+    cursor: move;
+  }
