@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muziekspeler</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+        <i class="fas fa-chevron-left"></i>
+        <p>Davey Zaal | 212</p>
+  </header>
+
+  <section class="mainInfo">
+    <div class="cover">
+        <img src="img/post_malone.jpg" alt="">
+        <img src="img/aerosmith.jpg" alt="">
+        <img src="img/talking_heads.jpg" alt="">
+        <img src="img/kool_and_the_gang.jpg" alt="">
+        <i class="far fa-play-circle"></i>
+      </div>
+      <div class="info">
+        <p>Afspeellijst</p>
+        <h1>Super dik feestje</h1>
+        <p>Aangemaakt door: <span class="underline">Davey Zaal</span></p>
+      </div>
+  </section>
+
+  <section class="contolPanel">
+      <p>8 Tracks, 36:34</p>
+      <button id="openSort">Volgorde Aanpassen</button>
+  </section>
+
+  <section class="tracks">
+      <div class="container">
+        <div class="draggable" draggable="true">
+          <img src="img/post_malone.jpg" alt="">
+          <p class="artist">Post Malone</p>
+          <p class="trackName">Go Flex</p>
+        </div>
+        <div class="draggable" draggable="true">
+          <img src="img/aerosmith.jpg" alt="">
+          <p class="artist">Run-D.M.C., Aerosmith</p>
+          <p class="trackName">Walk This Way (feat. Aerosmith)</p>
+        </div>
+        <div class="draggable" draggable="true">
+          <img src="img/talking_heads.jpg" alt="">
+          <p class="artist">Talking Heads</p>
+          <p class="trackName">This Must Be the Place (Naive Melody)</p>
+        </div>
+        <div class="draggable" draggable="true">
+          <img src="img/kool_and_the_gang.jpg" alt="">
+          <p class="artist">Kool & The Gang</p>
+          <p class="trackName">Fresh</p>
+        </div>
+        <div class="draggable" draggable="true">
+          <img src="img/are.jpg" alt="">
+          <p class="artist">Ares</p>
+          <p class="trackName">Frank Lampard</p>
+        </div>
+        <div class="draggable" draggable="true">
+          <img src="img/modjo.jpg" alt="">
+          <p class="artist">Modjo</p>
+          <p class="trackName">Lady - Hear Me Tonight</p>
+        </div>
+        <div class="draggable" draggable="true">
+          <img src="img/stardust.jpg" alt="">
+          <p class="artist">Stardust</p>
+          <p class="trackName">Music Sounds Better With You</p>
+        </div>
+        <div class="draggable" draggable="true">
+          <img src="img/room5.jpg" alt="">
+          <p class="artist">Room 5, Oliver Cheatham</p>
+          <p class="trackName">Make Luv</p>
+        </div>
+      </div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
