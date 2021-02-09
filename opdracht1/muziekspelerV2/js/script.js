@@ -1,13 +1,14 @@
-function handleDragStart(e) {
-    this.style.opacity = '0.4';
-  }
+let root = document.documentElement
 
-  function handleDragEnd(e) {
-    this.style.opacity = '1';
-  }
+var draggables = document.querySelectorAll('.draggable')
+var containers = document.querySelectorAll('.container')
 
-  let items = document.querySelectorAll('.container .box');
-  items.forEach(function(item) {
-    item.addEventListener('dragstart', handleDragStart, false);
-    item.addEventListener('dragend', handleDragEnd, false);
-  });
+draggables.forEach(draggable => {
+  draggable.addEventListener('dragstart', () => {
+    draggable.classList.add('dragging')
+  })
+
+  draggable.addEventListener('dragend', () => {
+    draggable.classList.remove('dragging')
+  })
+})
