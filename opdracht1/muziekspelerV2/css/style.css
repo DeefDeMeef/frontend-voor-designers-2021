@@ -155,13 +155,10 @@ section.tracks div.container div.draggable p.trackName {
     font-weight: bold;
 }
 
-section.tracks div.container div.draggable i {
+section.tracks div.container div.draggable i.fa-sort{
     position: absolute;
     right: 2rem;
     color: #fff;
 }
 
 /*  */
-
-
-
