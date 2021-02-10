@@ -155,13 +155,5 @@ section.tracks div.container div.draggable p.trackName {
     font-weight: bold;
 }
 
-section.tracks div.container div.draggable i {
-    position: absolute;
-    right: 2rem;
-    color: #fff;
-}
-
 /*  */
-
-
 
