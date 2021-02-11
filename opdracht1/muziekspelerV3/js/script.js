@@ -1,6 +1,6 @@
 let root = document.documentElement
 
-const draggables = document.querySelectorAll('.draggable')
+var draggables = document.querySelectorAll('.draggable')
 const containers = document.querySelectorAll('.container')
 
 draggables.forEach(draggable => {
