@@ -1,14 +1,8 @@
 # Frontend voor Designers - opdracht 1: Een Micro-interactie uitwerken en testen
 
-*De opdracht*
-Ontwerp een user interface voor een gegeven use case. Werk je ontwerp uit in HTML, CSS en Javascript om te kunnen testen in een browser.
-
-# Project titel
+# Muziekspeler drag & drop
 Ik heb voor de drag & drop case gekozen.
 Het interface is een afspeellijst van een muziekspeler zoals bijvoorbeeld Spotify. Je kan de nummers drag en droppen naar een andere plaats in de afspeellijst en als extra heb ik gemaakt dat je de muziek ook kan afspelen.
-
-## interface
-Leg de interface uit. In de demo heb je de interface design principles 04 & 11 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) toegepast. Hoe heb je dat gedaan?
 
 ## Versie V1
 Toen ik de opdracht kreeg ben ik misschien iets te enthousiast begonnen waardoor ik problemen nog niet kon voorspellen. Ik heb namelijk de eerste versie op mobiel gemaakt maar blijkaar werkt drag en drop hiervoor niet omdat het touch is. Ik had dus al een best ver uitgewerkte interface maar kon hem gaan omvormen naar desktop om drag en drop toe te kunnen passen. 
