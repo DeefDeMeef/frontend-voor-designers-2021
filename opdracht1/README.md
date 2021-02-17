@@ -21,7 +21,7 @@ In versie 3 heb ik een werkende muziekspeler ervan gemaakt en de interface verbe
 
 Link naar versie 3: https://deefdemeef.github.io/frontend-voor-designers-2021/opdracht1/muziekspelerV3/
 
-## code
+## Code
 Om elementen te kunnen draggen maak ik gebruik van de javascript drag events, dit zijn events die standaard in javascript zitten.
 Een simpel stukje om dit toe te lichten is de volgende code:
 ```JavaScript
@@ -74,3 +74,4 @@ function getDragAfterElement(container, y) {
 }
 ```
 Dit is alle code die ik gebruik om de gebruiker te laten drag en droppen.
+Voor nu heb ik niet veel tijd gehad om de muziek speel code hier toe te lichten maar als dat nodig is kan ik het zo doen of in een gesprekje uitleggen.
