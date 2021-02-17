@@ -1,5 +1,3 @@
-let root = document.documentElement
-
 var draggables = document.querySelectorAll('.draggable')
 const containers = document.querySelectorAll('.container')
 
@@ -16,23 +14,25 @@ draggables.forEach(draggable => {
 containers.forEach(container => {
   container.addEventListener('dragover', e => {
     e.preventDefault() // standaard gedrag van dit element pas je aan.
-    const afterElement = getDragAfterElement(container, e.clientY)
+    const afterElement = getDragAfterElement(container, e.clientY) // bepaal boven welk element de gebruiker een element sleept
     const draggable = document.querySelector('.dragging')
-    if (afterElement == null) {
+    if (afterElement == null) { // wanneer de gebruiker undefinied krijgt en dus onderaan de drag container is append child onder aan de array.
       container.appendChild(draggable)
     } else {
-      container.insertBefore(draggable, afterElement)
+      container.insertBefore(draggable, afterElement) // als de gebruiker het element tussen 2 elementen heeft parse de nieuwe child: draggable en insert hem voor het getal wat afterelement geeft.
     }
   })
 })
 
 function getDragAfterElement(container, y) {
-  const draggableElements = [...container.querySelectorAll('.draggable:not(.dragging)')]
+  const draggableElements = [...container.querySelectorAll('.draggable:not(.dragging)')] // maak een array van de drag containers zodat we kunnen inserten en appenden
 
+  // deze return functie rekent uit waar de cursor van de gebruiker aan het draggen is. Vervolgens retruned hij het element waar hij boven zit.
+  // Je hover bijvoorbeeld met je container boven het 3e element (tussen 2 en 3 in dus) dan returned deze functie element 3 terug.
   return draggableElements.reduce((closest, child) => {
-    const box = child.getBoundingClientRect()
-    const offset = y - box.top - box.height / 2
-    if (offset < 0 && offset > closest.offset) {
+    const box = child.getBoundingClientRect() // get rectangle info zoals top, height, width etc.
+    const offset = y - box.top - box.height / 2 // y = gebruikers cursor - box top - box hoogte gedeeld door 2 (het midden van de box dus)
+    if (offset < 0 && offset > closest.offset) { // offset moet een negatief getal zijn omdat we anders onder een element hoveren met de drag container
       return {
         offset: offset,
         element: child
@@ -41,8 +41,8 @@ function getDragAfterElement(container, y) {
       return closest
     }
   }, {
-    offset: Number.NEGATIVE_INFINITY
-  }).element
+    offset: Number.NEGATIVE_INFINITY // oneindig negatief getal, hierdoor zal de originele offset altijd groter zijn dan deze offset
+  }).element // zorgt ervoor dat je alleen het element krijgt wat gereduced is.
 }
 
 // music player js
@@ -239,3 +239,5 @@ function playtalkingHeads() {
 malonePlay.addEventListener('click', playPost);
 aerosmithPlay.addEventListener('click', playAero);
 talkingHeadsPlay.addEventListener('click', playtalkingHeads);
+
+// niet echt belangrijk, probeerde hier wat uit maar is nog niet gelukt

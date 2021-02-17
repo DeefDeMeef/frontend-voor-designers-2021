@@ -78,12 +78,21 @@ section.mainInfo div.info p {
     font-size: 0.75em;
 }
 
+section.mainInfo div.info p:first-child {
+    font-style: italic;
+}
+
 section.mainInfo div.info h1 {
     font-size: 2em;
     margin-block-start: 0em;
     margin-block-end: 0em;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+section.mainInfo div.info article {
+    padding: 1rem 0;
+    color: grey;
 }
 
 span.underline {
@@ -133,6 +142,7 @@ section.tracks div.container div.draggable {
 
 section.tracks div.container div.draggable.dragging {
     opacity: .5;
+    border-bottom: 5px solid #17c0eb;
 }
 
 section.tracks div.container div.draggable:hover button {
