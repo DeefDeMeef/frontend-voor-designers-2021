@@ -1,8 +1,12 @@
 # Project: Weather App
 Ik heb met een weather api een app gemaakt die jouw huidige locatie zoekt en vervolgens het huidige weer laat zien en de weersvoorspelling voor de komende dagen. Verder kan je nog een andere locatie opzoeken over de hele wereld en dan kan je het weer van die locatie bekijken. Ik wilde alle elementen en data aanmaken met JavaScript en in me HTML alleen de statische elementen zetten zoals de zoekbalk, eigenlijk alleen de zoekbalk en de sections om de data in te appenden.
 
-**Graag browser naar iPhone X zetten voor een mooi resultaat, desktop kan opzich ook maar is minder mooi**
+**Graag browser naar iPhone X zetten voor een mooi resultaat, desktop kan opzich ook maar is minder mooi:** /
 [Link naar de app](https://deefdemeef.github.io/frontend-voor-designers-2021/opdracht3/weatherApp/)
+
+# Fast Travel
+- [Interface](https://github.com/DeefDeMeef/frontend-voor-designers-2021/tree/main/opdracht3#interface)
+- - [04: Keep users in control](https://github.com/DeefDeMeef/frontend-voor-designers-2021/tree/main/opdracht3#04-keep-users-in-control)
 
 # Interface
 De interface is niet heel bijzonder omdat het voor de gebruiker niet fijn is om 3 stappen te volgens voordat hij het weer een keer heeft gevonden terwijl dat vaak het enigste doel is om een weather app te gebruiken. Dus om toch een extraatje toe te voegen heb ik een zoekfunctie erin verwerkt om toch de app iets dynamischer en leuker te maken voor de gebruiker. Hoe ik de principes heb toegepast ga ik hieronder toelichten.
