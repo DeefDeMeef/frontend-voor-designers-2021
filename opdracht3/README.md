@@ -5,9 +5,10 @@ Voor deze opdracht ga je een functionaliteit ontwerpen met externe data. De data
 Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 
 
-# Project titel
-Beschrijf hier je eigen project.
-En voeg een link naar je demo toe.
+# Project: Weather App
+Ik heb met een weather api een app gemaakt die jouw huidige locatie zoekt en vervolgens het huidige weer laat zien en de weersvoorspelling voor de komende dagen. Verder kan je nog een andere locatie opzoeken over de hele wereld en dan kan je het weer van die locatie bekijken. Ik wilde alle elementen en data aanmaken met JavaScript en in me HTML alleen de statische elementen zetten zoals de zoekbalk, eigenlijk alleen de zoekbalk en de sections om de data in te appenden.
+
+[link](link.com)
 
 ## interface
 Leg de interface uit.
