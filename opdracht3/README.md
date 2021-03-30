@@ -17,7 +17,7 @@ De interface is niet heel bijzonder omdat het voor de gebruiker niet fijn is om 
 
 ### 11: Strong visual hierarchies work best
 
-![https://github.com/DeefDeMeef/frontend-voor-designers-2021/blob/main/opdracht3/images/pages.png]
+![pages](/images/pages.png)
 
 ## UI Events
 De main event die ik heb uitgewerkt is de zoekfunctie, de gebruiker kan een andere locatie zoeken en de api zoekt vervolgens de nieuwe data en zet deze in de HTML. Eigenlijk is dit gewoon een simpel click event maar den functie ervan was wel leuk om te maken omdat de oude data weg moest en de nieuwe erin maar met me fetch maak ik elementen (createElement) hierdoor kon ik dus niet hetzelfde gebruiken omdat je dan de app als het ware cloned onder elkaar. Daarom heb ik dit met classlists gedaan die worden toegevoegd aan de gemaakte elementen (deze worden gemaakt onload dus die zijn er altijd) daarna kon ik een functie schrijven die de innerHTML aanpast met de aangevraagde data van de gebruiker.
