@@ -17,15 +17,20 @@ De interface is niet heel bijzonder omdat het voor de gebruiker niet fijn is om 
 
 ### 11: Strong visual hierarchies work best
 
+![pages](https://github.com/DeefDeMeef/frontend-voor-designers-2021/blob/main/opdracht3/images/pages.png)
+
 ## UI Events
 De main event die ik heb uitgewerkt is de zoekfunctie, de gebruiker kan een andere locatie zoeken en de api zoekt vervolgens de nieuwe data en zet deze in de HTML. Eigenlijk is dit gewoon een simpel click event maar den functie ervan was wel leuk om te maken omdat de oude data weg moest en de nieuwe erin maar met me fetch maak ik elementen (createElement) hierdoor kon ik dus niet hetzelfde gebruiken omdat je dan de app als het ware cloned onder elkaar. Daarom heb ik dit met classlists gedaan die worden toegevoegd aan de gemaakte elementen (deze worden gemaakt onload dus die zijn er altijd) daarna kon ik een functie schrijven die de innerHTML aanpast met de aangevraagde data van de gebruiker.
 
 ## States
 In de app heb ik 3 states uitgewerkt namelijk: succes, empty en error state. Hoe dit werkt ga ik hieronder toelichten.
 ### Succes State
+Wanneer de gebruiker toegang geeft tot zijn locatie kan de app data zoeken met behulp van de api, dit resulteerd in een succes state.
 ### Empty State
+Wanneer de gebruiker geen toegang geeft tot de locatie of wanneer javascript niet aanwezig is kan de app niet runnen waardoor elementen niet gemaakt worden en dan is de app dus leeg.
 ### Error State
-
+Wanneer de gebruiker een plaats opzoekt die de api niet kan vinden geeft de app een error, hier zegt hij dat de ingevulde plek niet gevonden kan worden.
+![states](https://github.com/DeefDeMeef/frontend-voor-designers-2021/blob/main/opdracht3/images/states.png)
 
 ## code
 Leg de code uit.
