@@ -267,6 +267,11 @@ function zoeken(event) {
 submitForm.addEventListener('click', zoeken)
 ```
 
+# Versies
+### Versie 1
+Eerste versie was vooral kijken wat de api allemaal kon. Dit is dus alleen een simpele pagina die niet kan zoeken of states kan geven. Het is puur de huidige locatie krijgen en het huidige weer laten zien.
+
+
 # Breakdown Schetsen
 Dit zijn de breakdown schetsen die ik heb gemaakt voordat ik begon met programmeren. Ik heb me eigenlijk helemaal gehouden aan deze schetsen en dat was best nieuw voor mij omdat ik het liefst meteen lekker ga coderen. Toch heb ik gemerkt dat deze schetsen erg fijn zijn om op terug te blikken tijdens het coderen. Ik heb deze onderaan gedaan omdat je anders lang moet scrollen voor de rest van deze readme.
 
