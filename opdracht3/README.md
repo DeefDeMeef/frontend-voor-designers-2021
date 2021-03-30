@@ -278,3 +278,8 @@ Dit zijn de breakdown schetsen die ik heb gemaakt voordat ik begon met programme
 ![pages](https://github.com/DeefDeMeef/frontend-voor-designers-2021/blob/main/opdracht3/images/breakdown1.jpg)
 ![pages](https://github.com/DeefDeMeef/frontend-voor-designers-2021/blob/main/opdracht3/images/breakdown2.jpg)
 ![pages](https://github.com/DeefDeMeef/frontend-voor-designers-2021/blob/main/opdracht3/images/breakdown3.jpg)
+
+# Bronnen
+- [Gebruikte API: Weatherapi](https://www.weatherapi.com/docs/)
+- [Developer Mozilla: Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [Chart.js](https://www.chartjs.org/)
