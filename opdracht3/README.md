@@ -1,23 +1,30 @@
-# Frontend voor Designers - opdracht 3: Een interactie uitwerken met externe data
-
-Voor deze opdracht ga je een functionaliteit ontwerpen met externe data. De data is JSON die met een [REST API](https://developer.mozilla.org/en-US/docs/Glossary/REST) van een externe bron wordt ingeladen met Javascript.  Als de data geladen is moeten gebruikers je ontwerp op verschillende manieren kunnen bedienen. Verschillende states zijn vormgeven en worden op het juiste moment getoond.
-
-Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
-
-
 # Project: Weather App
 Ik heb met een weather api een app gemaakt die jouw huidige locatie zoekt en vervolgens het huidige weer laat zien en de weersvoorspelling voor de komende dagen. Verder kan je nog een andere locatie opzoeken over de hele wereld en dan kan je het weer van die locatie bekijken. Ik wilde alle elementen en data aanmaken met JavaScript en in me HTML alleen de statische elementen zetten zoals de zoekbalk, eigenlijk alleen de zoekbalk en de sections om de data in te appenden.
 
 [link](link.com)
 
-## interface
-Leg de interface uit.
+# Breakdown Schetsen
+Dit zijn de breakdown schetsen die ik heb gemaakt voordat ik begon met programmeren. Ik heb me eigenlijk helemaal gehouden aan deze schetsen en dat was best nieuw voor mij omdat ik het liefst meteen lekker ga coderen. Toch heb ik gemerkt dat deze schetsen erg fijn zijn om op terug te blikken tijdens het coderen.
 
-In de demo heb je interface design principles 04, 08, 09 & 11 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) toegepast. Hoe heb je dat gedaan?
+# interface
+De interface is niet heel bijzonder omdat het voor de gebruiker niet fijn is om 3 stappen te volgens voordat hij het weer een keer heeft gevonden terwijl dat vaak het enigste doel is om een weather app te gebruiken. Dus om toch een extraatje toe te voegen heb ik een zoekfunctie erin verwerkt om toch de app iets dynamischer en leuker te maken voor de gebruiker. Hoe ik de principes heb toegepast ga ik hieronder toelichten.
 
-In de demo heb je meerdere [UI events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) toegepast. Hoe heb je dat gedaan?
+### 04: Keep users in control
 
-IN de demo heb je een aantal states van de [UI stack](https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/) toegepast. Hoe heb je dat gedaan?
+### 08: Provide a natural next step
+
+### 09: Appearance follows behavior
+
+### 11: Strong visual hierarchies work best
+
+## UI Events
+De main event die ik heb uitgewerkt is de zoekfunctie, de gebruiker kan een andere locatie zoeken en de api zoekt vervolgens de nieuwe data en zet deze in de HTML. Eigenlijk is dit gewoon een simpel click event maar den functie ervan was wel leuk om te maken omdat de oude data weg moest en de nieuwe erin maar met me fetch maak ik elementen (createElement) hierdoor kon ik dus niet hetzelfde gebruiken omdat je dan de app als het ware cloned onder elkaar. Daarom heb ik dit met classlists gedaan die worden toegevoegd aan de gemaakte elementen (deze worden gemaakt onload dus die zijn er altijd) daarna kon ik een functie schrijven die de innerHTML aanpast met de aangevraagde data van de gebruiker.
+
+## States
+In de app heb ik 3 states uitgewerkt namelijk: succes, empty en error state. Hoe dit werkt ga ik hieronder toelichten.
+### Succes State
+### Empty State
+### Error State
 
 
 ## code
