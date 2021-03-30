@@ -6,7 +6,7 @@ Ik heb met een weather api een app gemaakt die jouw huidige locatie zoekt en ver
 
 # Fast Travel
 - [Interface](https://github.com/DeefDeMeef/frontend-voor-designers-2021/tree/main/opdracht3#interface)
-- - [04: Keep users in control](https://github.com/DeefDeMeef/frontend-voor-designers-2021/tree/main/opdracht3#04-keep-users-in-control)
+    - [04: Keep users in control](https://github.com/DeefDeMeef/frontend-voor-designers-2021/tree/main/opdracht3#04-keep-users-in-control)
 
 # Interface
 De interface is niet heel bijzonder omdat het voor de gebruiker niet fijn is om 3 stappen te volgens voordat hij het weer een keer heeft gevonden terwijl dat vaak het enigste doel is om een weather app te gebruiken. Dus om toch een extraatje toe te voegen heb ik een zoekfunctie erin verwerkt om toch de app iets dynamischer en leuker te maken voor de gebruiker. Hoe ik de principes heb toegepast ga ik hieronder toelichten.
