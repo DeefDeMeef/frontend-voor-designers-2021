@@ -7,6 +7,15 @@ Ik heb met een weather api een app gemaakt die jouw huidige locatie zoekt en ver
 # Fast Travel
 - [Interface](https://github.com/DeefDeMeef/frontend-voor-designers-2021/tree/main/opdracht3#interface)
     - [04: Keep users in control](https://github.com/DeefDeMeef/frontend-voor-designers-2021/tree/main/opdracht3#04-keep-users-in-control)
+    - [08: Provide a natural next step](https://github.com/DeefDeMeef/frontend-voor-designers-2021/tree/main/opdracht3#08-provide-a-natural-next-step)
+    - [09: Appearance follows behavior](https://github.com/DeefDeMeef/frontend-voor-designers-2021/tree/main/opdracht3#09-appearance-follows-behavior)
+    - [11: Strong visual hierarchies work best](https://github.com/DeefDeMeef/frontend-voor-designers-2021/tree/main/opdracht3#11-strong-visual-hierarchies-work-best)
+- [UI Events](https://github.com/DeefDeMeef/frontend-voor-designers-2021/tree/main/opdracht3#ui-events)
+- [States](https://github.com/DeefDeMeef/frontend-voor-designers-2021/tree/main/opdracht3#states)
+- [Code Uitleg](https://github.com/DeefDeMeef/frontend-voor-designers-2021/tree/main/opdracht3#code-uitleg)
+- [Versies](https://github.com/DeefDeMeef/frontend-voor-designers-2021/tree/main/opdracht3#versies)
+- [Breakdown Schetsen](https://github.com/DeefDeMeef/frontend-voor-designers-2021/tree/main/opdracht3#breakdown-schetsen)
+- [Bronnen](https://github.com/DeefDeMeef/frontend-voor-designers-2021/tree/main/opdracht3#bronnen)
 
 # Interface
 De interface is niet heel bijzonder omdat het voor de gebruiker niet fijn is om 3 stappen te volgens voordat hij het weer een keer heeft gevonden terwijl dat vaak het enigste doel is om een weather app te gebruiken. Dus om toch een extraatje toe te voegen heb ik een zoekfunctie erin verwerkt om toch de app iets dynamischer en leuker te maken voor de gebruiker. Hoe ik de principes heb toegepast ga ik hieronder toelichten.
