@@ -150,7 +150,7 @@ function zoeken(event) {
 
     let search = inputText.value;
 
-    const api = `http://api.weatherapi.com/v1/forecast.json?key=ac6835b1e1fe4dc19fb203430212403&q=${search}&days=3&aqi=no&alerts=no`
+    const api = `https://api.weatherapi.com/v1/forecast.json?key=ac6835b1e1fe4dc19fb203430212403&q=${search}&days=3&aqi=no&alerts=no`
 
     fetch(api)
         .then(response => {
